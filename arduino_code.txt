@@ -1,0 +1,87 @@
+#include <Wire.h>
+
+#define PCA9685_ADDR 0x40
+#define MODE1 0x00
+#define MODE2 0x01
+#define PRESCALE 0xFE
+
+#define NUM_SERVOS 5
+
+// my calibrated microsecond ranges
+int openPulse[NUM_SERVOS]   = {9500, 1500, 10000, 1500, 11000};
+int closedPulse[NUM_SERVOS] = {4500, 5500, 2500, 9500, 3900};
+
+int currentPulse[NUM_SERVOS] = {0,0,0,0,0};
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin();
+  initPCA9685();
+}
+
+void loop() {
+  if (Serial.available()) {
+    String line = Serial.readStringUntil('\n');
+    line.trim();
+
+    if (line.length() == 5) {
+      for (int i = 0; i < NUM_SERVOS; i++) {
+        int target = (line[i] == '1') ? openPulse[i] : closedPulse[i];
+
+        // ------------------------------
+        // thumb sweep smooth
+        // ------------------------------
+        if (i == 0) {  
+          smoothThumbSweep(i, target);
+        }
+
+        else {
+          moveServo(i, target);
+          currentPulse[i] = target;
+        }
+      }
+    }
+  }
+}
+
+void initPCA9685() {
+  writeByte(MODE1, 0x01);
+  delay(10);
+  writeByte(PRESCALE, 121); // ~50Hz
+  writeByte(MODE2, 0x04);
+}
+
+void smoothThumbSweep(int channel, int targetPulse) {
+  int current = currentPulse[channel];
+
+  // adjust 40 -> slower ; 80 -> faster
+  int step = (targetPulse > current) ? 40 : -40;
+
+  while (abs(targetPulse - current) > abs(step)) {
+    current += step;
+    moveServo(channel, current);
+    delay(8);   // adjust this to change speed: higher = slower  
+  }
+
+  moveServo(channel, targetPulse);
+  currentPulse[channel] = targetPulse;
+}
+
+void moveServo(int channel, int pulseMicro) {
+  int pwmVal = pulseMicro / 4.88;
+  if (pwmVal > 4095) pwmVal = 4095;
+  if (pwmVal < 0)    pwmVal = 0;
+
+  int base = 0x06 + 4*channel;
+  writeByte(base,   0);
+  writeByte(base+1, 0);
+  writeByte(base+2, pwmVal & 0xFF);
+  writeByte(base+3, (pwmVal >> 8) & 0x0F);
+}
+
+void writeByte(byte reg, byte val) {
+  Wire.beginTransmission(PCA9685_ADDR);
+  Wire.write(reg);
+  Wire.write(val);
+  Wire.endTransmission();
+}
