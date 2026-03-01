@@ -5,6 +5,7 @@ This is a documentation of my first engineering project. This repository contain
 - [Assembly](#assembly)
 - [Wiring](#wiring)
 - [Installation](#installation)
+- [Coding](#coding)
 - [Parts To Buy](#parts-to-buy)
 - [Credits](#credits)
 
@@ -22,6 +23,18 @@ This is a documentation of my first engineering project. This repository contain
 ## Installation
 Download the STL files(Fingers, Thumb, Hand, Upper Forearm, and Wrist) on [Thingiverse](https://www.thingiverse.com/thing:2269115/files) by [Grossrc](https://www.thingiverse.com/grossrc/designs)                                                                                              
 Download the STL files(Lower Forearm and Upper Forearm Cover) on [Thingiverse](
+
+## Coding
+
+#### Step 1: Download Arduino IDE and Python 3.6+ (make sure to enable PATH and pip in install settings).                                              
+#### Step 2: Launch cmd and download the dependencies. Do this by running: pip install mediapipe opencv-python pyserial                             
+#### Step 3: Create a project folder in file explorer.                                                                                              
+#### Step 4: Download hand_landmarker.task and put it into your project folder.                                                                        
+#### Step 5: Download the python code (hand_tracking_servo_control.py) and put it into your project folder.                                            
+#### Step 6: Open Arduino IDE and upload the code found in arduino_code.txt                                                                            
+#### Step 7: Upload Arduino code via data cable(make sure data cable is plugged into com3 and you selected board and port in Arduino IDE)          
+#### Step 8: Launch python and enter the correct cd by running: cd C:\projectfilename (ex:cd C:\handtrackingrobot)                                     
+#### Step 9: Run the python(make sure the data cable is plugged into com3) by using: py hand_tracking_servo_control.py
 
 ## Parts To Buy
 [-Arduino Uno](https://www.amazon.com/Gomass-R3-Board-Arduino-Compatible-Arduino/dp/B0F1DBB61D/ref=sr_1_10?crid=14RL04S0PDSM3&dib=eyJ2IjoiMSJ9.MazmhFfn-DF8W5oyX_S-tDFAqLRDaMJSkroaZhdQMdjrBJn--6GmjWoUnZKfH5OaBGaeyZhzdZU8lFsqqd8UDj7BqEP2_A51LD6bueNk1Da8T3Qr4cocpJ0WPIawGld1JrO0Z3V4-d98zkTuCC7_rtJC8reBSM9LomYAlnxkQWgmFWwY5Nf5QuOQ7aDJLm5cAMjniclmBDMzt-B3Pkclv6Fz5YtTsnhNHdHRbFn0HDs.gHXaAZERh-HBN-eMlEufs5tZmiST5YWHRaf4SJ2fcB0&dib_tag=se&keywords=arduino+uno&qid=1772301224&sprefix=ardui%2Caps%2C1771&sr=8-10)                                  
