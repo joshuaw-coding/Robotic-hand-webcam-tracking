@@ -17,7 +17,7 @@ This is a documentation of my first engineering project. This repository contain
 
 ## Wiring
 
-
+[![Watch the video](https://img.youtube.com/vi/GDnmAI_7lOk/hqdefault.jpg)](https://www.youtube.com/watch?v=GDnmAI_7lOk)
 
 ## Installation
 Download the STL files(Fingers, Thumb, Hand, Upper Forearm, and Wrist) on [Thingiverse](https://www.thingiverse.com/thing:2269115/files) by [Grossrc](https://www.thingiverse.com/grossrc/designs)                                                                                              
