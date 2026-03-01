@@ -2,12 +2,22 @@
 This is a documentation of my first engineering project. This repository contains the Arduino code, Python code, 3d models, and all the physical parts i used that aren't 3d printed.
 ## Table of Contents
 - [Demonsration](#demonstration)
+- [Assembly](#assembly)
+- [Wiring](#wiring)
 - [Installation](#installation)
 - [Parts To Buy](#parts-to-buy)
 - [Credits](#credits)
 
 ## Demonstration
 [![Watch the video](https://img.youtube.com/vi/7y8TXPDOa_8/hqdefault.jpg)](https://www.youtube.com/watch?v=7y8TXPDOa_8)
+
+## Assembly
+
+[![Watch the video](https://img.youtube.com/vi/L2ddw3MQl9g/hqdefault.jpg)](https://www.youtube.com/watch?v=L2ddw3MQl9g)
+
+## Wiring
+
+
 
 ## Installation
 Download the STL files(Fingers, Thumb, Hand, Upper Forearm, and Wrist) on [Thingiverse](https://www.thingiverse.com/thing:2269115/files) by [Grossrc](https://www.thingiverse.com/grossrc/designs)                                                                                              
@@ -21,6 +31,7 @@ Download the STL files(Lower Forearm and Upper Forearm Cover) on [Thingiverse](
 [-Generic Fishing Line(Select Size: 327yrd 15lb)](https://www.amazon.com/RIKIMARU-Abrasion-Resistant-Superline-Diameter/dp/B07Q4NC9RV/ref=sr_1_8?crid=16DDJJWU5O9WB&dib=eyJ2IjoiMSJ9.dqWLZi6FFjGUlZKQyOCwPVBNm4bCKu94D8gUi6lnQsl_hhm4c_4ObQzXFX8ERL2qPMRsA1i6oz0Mx_LpyEdqx2PycPn678wrxpbb967U00-nkTtHTGUAolRCl423Cqtl1SLrnwnAIZQ-SnpFjILFc_4BF8TfpjeOA5FQkZVKzZCshq0PiBaCdsjUYwbuj0aVycXDvE0ZaL9MrrSiNqv3cNmRdbKJ7VzOUxgsvmMS6v1brVgbnbNVIsbC5ICgH3orUX5RSJOuigG2GJZH4oQ9aFCcyZqimXL-nUQV6PyrFCk.kdHYMlZdVyszRMnYjCwgOJayg-m-uFYH2JUssDYvlAc&dib_tag=se&keywords=rikimaru%2B300m%2B.12mm%2B15lb%2Bfishing%2Bline&qid=1772301722&sprefix=rikimaru%2B300m%2B.12mm%2B15lb%2Bfishing%2Bline%2Caps%2C176&sr=8-8&th=1&psc=1)                                                                                                           
 [-Elastic 1/8 inch paracord](https://www.amazon.com/dp/B00HNYJAWU/ref=twister_B0CX5XM9Z9?_encoding=UTF8&th=1)                                     
 [-Dupont Jumper Wires Variety](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_1?crid=U5OX9E3IXVC1&dib=eyJ2IjoiMSJ9.SszVHKRXXxbEIG2ErBYriTYR5PGk9WL9Ph5J0Uu87uFyAvNhOPpbUvIFmUr8s7n0RYZQ19M_z85qbOiLmn9M4fmjjduIDglzxHSXrAAZWN-RbTMxBiXDBgJt7_6USOzBy3KqvgGnGVYI9UKUREi1keUWDKpJE4V2dlnRNiFwWMNFPatujQHQq0bGZROstitm0xYPFahorvaMPobsLtfIJBUIzcmXFofn3RXh4oMC-Zw.dwLq2Kn1KoLDQVfwp2QMpMVps70Uz81roxvpPcqpDvM&dib_tag=se&keywords=dupont+wires+variety&qid=1772301518&sprefix=dupont+wires+variety%2Caps%2C149&sr=8-1)                                                                                                                                             
-[-Super Glue](https://www.amazon.com/Gorilla-Super-Glue-Gram-Clear/dp/B00OAAUAX8/ref=sr_1_3?crid=1HE9KCWRPDGK1&dib=eyJ2IjoiMSJ9.tSpIGY6rFGUb59rroPvWzAfXWehP2qGd1Z_V-XE0mW4hEFD36RYlPsUhxV4uDERE_Rk6XjqNchZnwD15rpdeQVzRsoOzC0xvv1pPYye3bfas1LBMNzNXAnAMn38DGd7ubU65lLpR18t5POMCjtR8T383VwGDLb71ajzBfCV1vwi7_xp0XVSn8OiA6PY-A2A155lcj1WsL5x2mwo5SSnbDwRk8-ytC8evy7bX07my_I0BkDbHPKswK5B7FLOHcgJPbo2khziFj_4LsquFZdJgon9oASb9POrMu5ylDVxsvcM.XvdwTNMUcqA_nP9SjQy3UPjdxqsYy7VSuEuR5C1Pg6Y&dib_tag=se&keywords=super+glue&qid=1772315855&s=home-garden&sprefix=super+glue%2Cgarden%2C167&sr=1-3)
+[-Super Glue](https://www.amazon.com/Gorilla-Super-Glue-Gram-Clear/dp/B00OAAUAX8/ref=sr_1_3?crid=1HE9KCWRPDGK1&dib=eyJ2IjoiMSJ9.tSpIGY6rFGUb59rroPvWzAfXWehP2qGd1Z_V-XE0mW4hEFD36RYlPsUhxV4uDERE_Rk6XjqNchZnwD15rpdeQVzRsoOzC0xvv1pPYye3bfas1LBMNzNXAnAMn38DGd7ubU65lLpR18t5POMCjtR8T383VwGDLb71ajzBfCV1vwi7_xp0XVSn8OiA6PY-A2A155lcj1WsL5x2mwo5SSnbDwRk8-ytC8evy7bX07my_I0BkDbHPKswK5B7FLOHcgJPbo2khziFj_4LsquFZdJgon9oASb9POrMu5ylDVxsvcM.XvdwTNMUcqA_nP9SjQy3UPjdxqsYy7VSuEuR5C1Pg6Y&dib_tag=se&keywords=super+glue&qid=1772315855&s=home-garden&sprefix=super+glue%2Cgarden%2C167&sr=1-3)                                             
+[-External Power Supply 10A 5V](https://www.amazon.com/CENTROPOWER-Transformer%EF%BC%8C-Surveillance-Cameras%EF%BC%8CRouter-Connector%EF%BC%8CUL-Listed/dp/B0BZHH3HVR/ref=sr_1_22_sspa?crid=KK79HTRCIO5E&dib=eyJ2IjoiMSJ9.uvuiR3PjXOxaI3f-GywZNSc-lfuYRBHIcpCOP0DtuHaFOkU2WSACwbRWNehHTHveWyoYEPscJvftIxc5M7zReE91b4Rhzc-LZlfnP44j8rxrAwVq9AIUQyb8KP_L8xr69eECJI6d7s0q63eSKJTmiS4fvbIbaSjAj7VI5kbOa1RV0AxVxo_Q8l0kEY10G6C0ndNuSdKwoO67HZe1yXhi-SvntalHOIQxrsR0cZLvFDY.uLAf0q3zTbNCsHUBO91HwTVIe98VHCjugIrfEjHw5VA&dib_tag=se&keywords=10+amp+5+v+power+supply&qid=1772328035&sprefix=10+amp+5+v+power+suppl%2Caps%2C224&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1)
 ## Credits
 3d Printed Files(Fingers, Hand, Thumb, Wrist, and Upper Forearm) by [Grossrc](https://www.thingiverse.com/grossrc/designs) liscenced under [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
