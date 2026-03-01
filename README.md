@@ -21,7 +21,7 @@ This is a documentation of my first engineering project. This repository contain
 [![Watch the video](https://img.youtube.com/vi/GDnmAI_7lOk/hqdefault.jpg)](https://www.youtube.com/watch?v=GDnmAI_7lOk)
 
 ## Installation
-Download the STL files(Fingers, Thumb, Hand, Upper Forearm, and Wrist) on [Thingiverse](https://www.thingiverse.com/thing:2269115/files) by [Grossrc](https://www.thingiverse.com/grossrc/designs)                                                                                              
+Download the STL files(Fingers, Thumb, Hand, Servo Cage, Servo Horn, Upper Forearm, and Wrist) on [Thingiverse](https://www.thingiverse.com/thing:2269115/files) by [Grossrc](https://www.thingiverse.com/grossrc/designs)                                                                                              
 Download the STL files(Lower Forearm and Upper Forearm Cover) on [Thingiverse](
 
 ## Coding
@@ -31,7 +31,7 @@ Download the STL files(Lower Forearm and Upper Forearm Cover) on [Thingiverse](
 #### Step 3: Create a project folder in file explorer.                                                                                              
 #### Step 4: Download hand_landmarker.task and put it into your project folder.                                                                        
 #### Step 5: Download the python code (hand_tracking_servo_control.py) and put it into your project folder.                                            
-#### Step 6: Open Arduino IDE and upload the code found in arduino_code.txt                                                                            
+#### Step 6: Open Arduino IDE and download the adafruit pca library.                                                                                                                                                        
 #### Step 7: Upload Arduino code via data cable(make sure data cable is plugged into com3 and you selected board and port in Arduino IDE)          
 #### Step 8: Launch python and enter the correct cd by running: cd C:\projectfilename (ex:cd C:\handtrackingrobot)                                     
 #### Step 9: Run the python(make sure the data cable is plugged into com3) by using: py hand_tracking_servo_control.py
@@ -47,4 +47,4 @@ Download the STL files(Lower Forearm and Upper Forearm Cover) on [Thingiverse](
 [-Super Glue](https://www.amazon.com/Gorilla-Super-Glue-Gram-Clear/dp/B00OAAUAX8/ref=sr_1_3?crid=1HE9KCWRPDGK1&dib=eyJ2IjoiMSJ9.tSpIGY6rFGUb59rroPvWzAfXWehP2qGd1Z_V-XE0mW4hEFD36RYlPsUhxV4uDERE_Rk6XjqNchZnwD15rpdeQVzRsoOzC0xvv1pPYye3bfas1LBMNzNXAnAMn38DGd7ubU65lLpR18t5POMCjtR8T383VwGDLb71ajzBfCV1vwi7_xp0XVSn8OiA6PY-A2A155lcj1WsL5x2mwo5SSnbDwRk8-ytC8evy7bX07my_I0BkDbHPKswK5B7FLOHcgJPbo2khziFj_4LsquFZdJgon9oASb9POrMu5ylDVxsvcM.XvdwTNMUcqA_nP9SjQy3UPjdxqsYy7VSuEuR5C1Pg6Y&dib_tag=se&keywords=super+glue&qid=1772315855&s=home-garden&sprefix=super+glue%2Cgarden%2C167&sr=1-3)                                             
 [-External Power Supply 10A 5V](https://www.amazon.com/CENTROPOWER-Transformer%EF%BC%8C-Surveillance-Cameras%EF%BC%8CRouter-Connector%EF%BC%8CUL-Listed/dp/B0BZHH3HVR/ref=sr_1_22_sspa?crid=KK79HTRCIO5E&dib=eyJ2IjoiMSJ9.uvuiR3PjXOxaI3f-GywZNSc-lfuYRBHIcpCOP0DtuHaFOkU2WSACwbRWNehHTHveWyoYEPscJvftIxc5M7zReE91b4Rhzc-LZlfnP44j8rxrAwVq9AIUQyb8KP_L8xr69eECJI6d7s0q63eSKJTmiS4fvbIbaSjAj7VI5kbOa1RV0AxVxo_Q8l0kEY10G6C0ndNuSdKwoO67HZe1yXhi-SvntalHOIQxrsR0cZLvFDY.uLAf0q3zTbNCsHUBO91HwTVIe98VHCjugIrfEjHw5VA&dib_tag=se&keywords=10+amp+5+v+power+supply&qid=1772328035&sprefix=10+amp+5+v+power+suppl%2Caps%2C224&sr=8-22-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1)
 ## Credits
-3d Printed Files(Fingers, Hand, Thumb, Wrist, and Upper Forearm) by [Grossrc](https://www.thingiverse.com/grossrc/designs) liscenced under [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
+3d Printed Files(Fingers, Hand, Thumb, Servo Cage, Servo Horn, Wrist, and Upper Forearm) by [Grossrc](https://www.thingiverse.com/grossrc/designs) liscenced under [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)
