@@ -1,4 +1,4 @@
-# Robotic-hand-webcam-tracking
+# Robotic-Hand-Webcam-Tracking
 This is a documentation of my first engineering project. This repository contains the Arduino code, Python code, 3d models, and all the physical parts I used that aren't 3d printed.
 ## Table of Contents
 - [Demonsration](#demonstration)
